@@ -21,7 +21,7 @@ const Recipe = ({ recipe }) => {
             </div>
 
             <div className="digestive">
-                <h4>Digests Level</h4>
+                <h4>Nutrient Information</h4>
                 <ul>
                     {digest.map(dgst => (
                         <li>
