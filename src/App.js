@@ -5,6 +5,7 @@ import './App.css';
 import Loading from './components/Loading';
 import Search from './components/Search';
 import Recipes from './components/Recipes';
+import Popup from './components/Popup';
 
 require('dotenv').config()
 
@@ -95,7 +96,8 @@ function App() {
 
       <main>
         <Recipes recipes={recipes} />
-
+        <Popup recipes={recipes} />
+        
       </main>
     </section>
   );
